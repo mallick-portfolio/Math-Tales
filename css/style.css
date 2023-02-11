@@ -1,0 +1,332 @@
+/* -------------------
+    Poppins Google Font
+  -------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+/* -------------------
+    Utilities CSS
+  -------------------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+/* -------------------
+    Header Area CSS
+  -------------------- */
+.header-in {
+  padding: 40px 0;
+}
+.mobile-menu {
+  display: none;
+}
+.mobile-menu ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+.mobile-menu ul li a {
+  font-weight: bold;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+
+.header-in .logo img {
+  font-weight: bold;
+  font-size: 24px;
+  color: #3a3a3a;
+  width: 70px;
+}
+.header-in {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+nav.main-menu {
+  margin-top: 6px;
+}
+.main-menu ul {
+  display: flex;
+  align-items: center;
+}
+.main-menu ul li {
+  margin-left: 34px;
+}
+.main-menu ul li a {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+/* -------------------
+    Banner Area CSS
+  -------------------- */
+.banner-in {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.banner-content {
+  margin: auto 0;
+}
+.banner-content h1 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 70px;
+  color: #3a3a3a;
+}
+.banner-content p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+.banner-content a {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 40px;
+  margin-top: 14px;
+  transition: box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease;
+}
+.banner-content a:hover {
+  box-shadow: 0px 13px 19px rgb(5 5 5 / 30%);
+  background-color: #ffffff;
+  color: #e02c6d;
+}
+.banner-content a i {
+  margin-left: 8px;
+}
+.banner-thumbnail img {
+  border: 4px solid #f7f0ff;
+  border-radius: 50%;
+  width: 95%;
+}
+
+/* -------------------
+    Partner Area CSS
+  -------------------- */
+.partner-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e7ecf1;
+  border-bottom: 1px solid #e7ecf1;
+  padding: 40px 0;
+  margin-bottom: 100px;
+}
+.partner-logo img {
+  margin: 0 25px;
+}
+
+/* -------------------
+    Product Area CSS
+  -------------------- */
+.product-area {
+  margin-bottom: 100px;
+}
+.products-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 28px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+.single-product {
+  box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.product-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #18191f;
+}
+.product-ratting {
+  display: flex;
+}
+.ratting ul {
+  display: flex;
+}
+.ratting ul li i {
+  color: #fb8200;
+  font-size: 14px;
+}
+.product-ratting p {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #5e6366;
+  font-weight: bold;
+}
+.product-detail {
+  color: #787885;
+  font-size: 14px;
+}
+
+.show-more-btn a {
+  text-align: right;
+  display: block;
+  margin-top: 50px;
+  color: #e02c6dde;
+  font-weight: bold;
+  font-size: 16px;
+}
+.show-more-btn a i {
+  margin-left: 5px;
+}
+
+/* -------------------
+    Feature Area CSS
+  -------------------- */
+.feature {
+  margin-bottom: 100px;
+}
+.feature-in {
+  display: flex;
+}
+.freature-info {
+  margin: auto 0;
+  padding-left: 90px;
+}
+.freature-info h2 {
+  font-weight: bold;
+  font-size: 38px;
+  color: #0a0826;
+}
+.freature-info p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin: 16px 0;
+}
+.freature-info a {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease;
+}
+.freature-info a:hover {
+  box-shadow: 0px 13px 19px rgb(5 5 5 / 30%);
+  background-color: #ffffff;
+  color: #e02c6d;
+}
+.freature-info a i {
+  margin-left: 10px;
+}
+
+/* -------------------
+    Client Review Area CSS
+  -------------------- */
+.client-review {
+  margin-bottom: 100px;
+}
+.clients {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
+}
+.single-client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+}
+.single-client img {
+  width: 30%;
+  border-radius: 50%;
+}
+.single-client p {
+  margin: 15px 0;
+  color: #3a3a3a;
+  font-size: 16px;
+  text-align: center;
+}
+.single-client h4 {
+  color: #18191f;
+  font-size: 18px;
+  font-weight: bold;
+}
+.client-ratting ul {
+  display: flex;
+  justify-content: center;
+  color: #fb8200;
+}
+
+/* -------------------
+    Footer Area CSS
+  -------------------- */
+.footer {
+  background-color: #0a0826;
+  padding: 50px 0;
+  color: #ffffff;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content .logo {
+  font-weight: bold;
+  font-size: 24px;
+  width: 80px;
+}
+.social-link ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.social-link ul li {
+  margin: 0 12px;
+}
+.social-link ul li a i {
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+  background-color: #22213c;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50%;
+  line-height: 1.6;
+}

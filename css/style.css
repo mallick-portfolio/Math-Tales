@@ -43,6 +43,9 @@ li {
 .mobile-menu {
   display: none;
 }
+.mobile-menu .logo img {
+  width: 40px;
+}
 .mobile-menu ul {
   display: flex;
   justify-content: space-between;
